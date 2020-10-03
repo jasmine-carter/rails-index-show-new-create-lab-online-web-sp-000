@@ -1,1 +1,3 @@
 <h3>Coupons Index </h3>
+<%= @coupons.each do |c| %>
+<li><%=c.store c.coupon_code %>  </li>
