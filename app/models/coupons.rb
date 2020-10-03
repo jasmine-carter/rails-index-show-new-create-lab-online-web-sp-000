@@ -1,0 +1,1 @@
+class Coupons < ActiveRecord::Base
